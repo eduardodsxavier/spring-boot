@@ -8,7 +8,6 @@ import jakarta.persistence.Id;
 
 @Entity
 class ToDo { 
-
     private @Id @GeneratedValue Long id;
     private String name;
     private String description;
@@ -17,7 +16,6 @@ class ToDo {
     ToDo() {}
 
     ToDo(String name, String description, Status status) {
-
         this.name = name;
         this.description = description;
         this.status = status;

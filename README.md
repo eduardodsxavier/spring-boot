@@ -9,4 +9,16 @@ Have a list of employees and ordere.
 Go to URL/employees to see employees octions and URL/orders to see orders actions.
 
 ## ByMySelf
-Try to create a To-Do REST API with the lowest external help.
+A REST api that manage a list of To-Do. 
+### Get
+- URL/todos : get the list of all todos
+- URL/todos/{x} : get the todo of id = x
+### Post 
+- URL/todos : add a new todo, in the body put: {name: name of todo, description: description of the todo} 
+### Put 
+- URL/todos/{x} : update name and description of todo of id = x, if that to-do aren't in the list add it
+- URL/todos/{x}/complete : change the status of todo of id = x to completed
+- URL/todos/{x}/reset : change the status of todo of id = x to to-do
+### Delete
+- URL/todos/{x}/cancel : change the status of todo of id = x to cancel 
+
