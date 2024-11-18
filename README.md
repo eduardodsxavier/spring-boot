@@ -22,3 +22,5 @@ A REST api that manage a list of To-Do.
 ### Delete
 - URL/todos/{x}/cancel : change the status of todo of id = x to cancel 
 
+## database
+A basic start of how to use databases in Spring-boot.
